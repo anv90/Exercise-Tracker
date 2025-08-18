@@ -1,0 +1,117 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  background-color: #292828;
+  color: #6bdaf8;
+  margin: 0px;
+  padding: 1rem;
+
+}
+
+header {
+  color: greenyellow;
+}
+
+nav a {
+  color: #f508b9;
+  padding: 1rem;
+  margin: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #f508b9;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #f508b9;
+  color: #292828;
+}
+
+tr th {
+  border: 1px dotted #3382d2;
+  border-radius: 5px;
+  padding: 1.5rem;
+}
+
+tr td {
+  border: 1px dotted rgb(193, 66, 174);
+  border-radius: 5px;
+  color: #f508b9;
+  padding: 2rem;
+}
+
+input, select {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin:1rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #292828;
+  color: #ff9c2c;
+  margin: 2rem;
+  padding: 1rem;
+  border: 1px solid #ff9c2c;
+}
+
+button:hover {
+  background-color: #ff9c2c;
+  border-color: #ff9c2c;
+  color: #292828;
+}
+
+footer {
+  margin-top: 5rem;
+  font-size: 0.75rem;
+}
+
+header {
+  margin-bottom: 4rem;
+}
